@@ -8,11 +8,6 @@ wheels/
 
 # Virtual environments
 
-# Secrets
-.env
-.env.*
-!.env.example
-
 # Python
 __pycache__/
 *.py[cod]
@@ -25,29 +20,14 @@ __pycache__/
 .env.*
 !.env.example
 
-# Python environments and cache
 .venv/
 venv/
 __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
 
-# Local vector databases
 **/chroma_db/
-**/chroma_1/
-**/chroma_kb/
-**/chroma_metadata_db/
-
-# Generated data
-chunks.json
 **/match_documents/
-recently_added_2_json/
 **/models/
-
-# IDE and OS
-.vscode/
-.idea/
-.DS_Store
-Thumbs.db
-
-
+chunks.json
+recently_added_*/
