@@ -1,0 +1,25 @@
+[project]
+name = "cricket"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain>=0.3.0",
+    "langchain-core>=1.0.0",
+    "langchain-groq>=0.3.0",
+    "python-dotenv>=1.2.2",
+    "streamlit>=1.57.0",
+    "ipykernel>=7.2.0",
+    "notebook<=7.5.6",
+    "chromadb>=1.5.9",
+    "langchain-community>=0.4.2",
+    "jq>=1.13.0",
+    "langchain-ollama>=1.1.0",
+    "langchain-chroma>=1.1.0",
+    "rank-bm25>=0.2.2",
+    "joblib>=1.6.0",
+    "scikit-learn>=1.9.1",
+    "flashrank>=0.2.10",
+    "fastapi>=0.146.0",
+]
